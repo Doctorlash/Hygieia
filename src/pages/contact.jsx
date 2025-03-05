@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import './contact.css';
+import './Contact.css';
 
 
 // Dummy map location URL, replace with actual API or embedded map

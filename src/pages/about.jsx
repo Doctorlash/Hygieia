@@ -15,7 +15,7 @@ const About = () => {
       >
         <h1>About Treos: Your Trusted Partner in Cybersecurity</h1>
         <p>
-          Discover our journey, mission, and vision as we lead the way in securing organizations against modern cybersecurity threats.
+                  Discover our journey, mission, and vision as we lead the way in securing organizations against modern cybersecurity threats.
         </p>
       </motion.header>
 
