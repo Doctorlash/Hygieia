@@ -1,0 +1,150 @@
+.products-page {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    margin-top: 150px;
+    overflow: hidden;
+    background: #1e1e1e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay to enhance contrast */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  padding: 60px;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.products-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff5722; /* Accent color */
+  margin-bottom: 20px;
+}
+
+.overview {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.product-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  color: #fff;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h3,h4 {
+  font-size: 1.5rem;
+  color: #ff5722;
+  margin-bottom: 15px;
+}
+
+ul {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+}
+
+.cta-section {
+  margin-top: 60px;
+  margin-bottom: 200px;
+  font-size: 1.2rem;
+}
+
+.cta-link {
+  font-weight: bold;
+  color: #ff5722;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.cta-link:hover {
+  color: #e64a19;
+}
+.product-fade-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .product-fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  
+  .product-fade-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .product-fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+
+
+@media (max-width: 768px) {
+  .products-header {
+    font-size: 2.5rem;
+  }
+
+  .overview {
+    font-size: 1rem;
+  }
+
+  .product-item {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,108 @@
+.services {
+    position: relative;
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .services-intro h3 {
+    font-size: 2.5rem;
+    color: #f5f1f1;
+  }
+  
+  .services-intro p {
+    font-size: 1.1rem;
+    color: #815a5a;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-title h3 {
+    font-size: 30px;
+    color: #c43131;
+  }
+  
+  .service-card p,h3 {
+    font-size: 1rem;
+    color: #777;
+  }
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .case-studies {
+    background-color: #281d1d;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .case-studies h2 {
+    font-size: 2rem;
+    color: #edeaea;
+    margin-bottom: 20px;
+  }
+  .case-studies p {
+    font-size: 1.1rem;
+    color: #f4eded;
+  }
+  
+  .cta-section {
+    background-color: #072244;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-link {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-link:hover {
+    text-decoration: underline;
+  }
+      

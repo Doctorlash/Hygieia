@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  /* Container */
+  .ai-research-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .header h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #00bcd4;
+  }
+  
+  .header p {
+    font-size: 1.3em;
+    color: #bbb;
+  }
+  
+  /* Research Areas Section */
+  .research-areas {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .research-areas h2 {
+    font-size: 2.5em;
+    color: #ff4081;
+    margin-bottom: 40px;
+  }
+  
+  .research-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .research-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .research-item h3 {
+    font-size: 1.6em;
+    color: #00bcd4;
+  }
+  
+  .research-item p {
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  /* Resource Section */
+  .resources {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .resources h2 {
+    font-size: 2.5em;
+    color: #ff4081;
+    margin-bottom: 30px;
+  }
+  
+  .resource-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  .resource-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .resource-item h3 {
+    font-size: 1.6em;
+    color: #00bcd4;
+  }
+  
+  .resource-item p {
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .download-btn {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  .download-btn:hover {
+    background-color: #ff80ab;
+  }
+  
+  /* Call to Action Section */
+  .cta {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .cta h2 {
+    font-size: 2.5em;
+    color: #00bcd4;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 1.2em;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ff80ab;
+  }
+ 
